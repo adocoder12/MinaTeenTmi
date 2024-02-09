@@ -1,0 +1,24 @@
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue);
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1.2rem;
+  gap: 8px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  text-transform: capitalize;
+}
+
+.Btn:hover {
+  background-color: var(--red);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.303);
+  transition-duration: 0.5s;
+}

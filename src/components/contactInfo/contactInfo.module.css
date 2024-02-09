@@ -1,0 +1,58 @@
+.contactInfo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px 0;
+}
+
+.contactInfo__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  align-items: start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contactIcon__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.contactIcon__wrapper > svg {
+  font-size: 1.5rem;
+  color: var(--red);
+}
+
+.IconTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--blue);
+  text-transform: capitalize;
+}
+
+.IconInfo {
+  font-size: 1.15rem;
+  font-weight: 400;
+  color: var(--black);
+  text-transform: capitalize;
+  margin-left: 40px;
+}
+
+@media (min-width: 880px) {
+  .contactInfo__container {
+  }
+  .contactInfo__wrapper {
+  }
+  .contactIcon__wrapper {
+  }
+  .contactIcon__wrapper > svg {
+    font-size: 2rem;
+  }
+  .IconTitle {
+    font-size: 1.5rem;
+  }
+  .IconInfo {
+    font-size: 1rem;
+  }
+}

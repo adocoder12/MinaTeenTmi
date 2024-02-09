@@ -1,0 +1,78 @@
+.footer {
+  display: grid;
+  align-content: space-between;
+  grid-template-columns: 1fr;
+  grid-area: footer;
+  min-height: 30vh;
+  padding: 16px 8px;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #000;
+}
+.footer__logo {
+  width: 250px;
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rigthFooter {
+  display: flex;
+  justify-content: space-around;
+  width: 26%;
+  gap: 0 40px;
+}
+
+.list_menu_footer {
+  font-size: 1.4rem;
+  font-weight: 300;
+  list-style: none;
+  margin-top: 40px;
+}
+
+.list_menu_footer li {
+  font-size: 1.1rem;
+  font-weight: 300;
+  list-style: none;
+  margin: 4px 0;
+}
+
+.list_menu_footer li a {
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.3s;
+  list-style: none;
+  cursor: pointer;
+}
+
+.footerInfoWrapper {
+  display: grid;
+  place-items: center;
+  gap: 0 20px;
+  justify-content: space-around;
+  position: relative;
+}
+
+.bottonFooter {
+  justify-self: center;
+  position: relative;
+}
+
+.bottonFooter::before {
+  content: "";
+  position: absolute;
+  left: calc(50% - 400px);
+  right: 0;
+  width: 800px;
+  height: 2px;
+  background-color: #333333;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+@media (min-width: 768px) {
+  .footerInfoWrapper {
+    display: flex;
+  }
+}

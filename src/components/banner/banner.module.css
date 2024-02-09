@@ -1,0 +1,30 @@
+.banner__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  /* background-color: var(--decorator); */
+  background-image: url("../../assets/wooden-oak-background-wallpaper.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  color: #000;
+  text-align: center;
+  padding: 0 20px;
+  text-transform: capitalize;
+  max-width: 500px;
+}
+
+.banner__title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+/* .banner__text {
+} */
