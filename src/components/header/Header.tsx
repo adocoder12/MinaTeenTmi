@@ -22,7 +22,7 @@ export default function Header() {
   const navLinks = [
     { name: "Etusivu", path: "/" },
     { name: "Ota Yhteyttä", path: "/ota-yhteytta" },
-    { name: "Minustä", path: "/minusta" },
+    { name: "Minusta", path: "/minusta" },
   ];
 
   console.log(location.pathname === navLinks[0].path ? "true " : "false");

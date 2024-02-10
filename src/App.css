@@ -11,11 +11,11 @@
   gap: 12px;
   padding: 0 12px;
   place-items: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr;
   grid-template-areas:
-    " header"
-    " main "
-    " footer";
+    " header header "
+    " main main "
+    " footer footer";
 }
 
 .container {
