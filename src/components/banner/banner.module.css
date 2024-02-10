@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35vh;
+  height: 50vh;
   /* background-color: var(--decorator); */
   background-image: url("../../assets/wooden-oak-background-wallpaper.jpeg");
   background-size: cover;
