@@ -1,4 +1,4 @@
-import style from "./ServiceList.module.css";
+import style from "./serviceList.module.css";
 //component
 import Service from "../Service/Service";
 
