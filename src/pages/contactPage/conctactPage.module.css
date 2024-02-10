@@ -1,9 +1,9 @@
 .contact__page__container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "banner banner banner banner"
-    "contactForm contactForm contactForm contactForm";
+    "banner banner "
+    "contactForm contactForm ";
   gap: 2rem;
   grid-template-rows: 0.4fr 1fr;
 }
@@ -24,6 +24,13 @@
 }
 
 @media (min-width: 880px) {
+  .contact__page__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "banner banner banner banner"
+      "contactForm contactForm contactForm contactForm";
+  }
   .contact__page__wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
