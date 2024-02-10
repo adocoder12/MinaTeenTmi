@@ -7,15 +7,15 @@
 
 .app {
   display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "header header header  header "
+    "main main main main"
+    " footer footer footer footer";
   min-height: 100vh;
   gap: 12px;
   padding: 0 12px;
-  place-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas:
-    " header header header  header"
-    "main main main main"
-    " footer footer footer footer";
 }
 
 .container {
@@ -28,7 +28,17 @@
   margin-top: 64px;
   width: 100%;
 }
-
+/* Small Tablet styles */
+@media screen and (min-width: 500px) {
+  .app {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "header header header header header header"
+      "... main main main main ..."
+      "footer footer footer footer footer footer";
+  }
+}
+/* Large Tablet styles */
 @media (min-width: 690px) {
   .app {
     grid-template-columns: repeat(8, 1fr);
@@ -38,7 +48,7 @@
       "footer footer footer footer footer footer footer footer";
   }
 }
-
+/* laptop styles */
 @media (min-width: 960px) {
   .app {
     grid-template-columns: repeat(12, 1fr);
