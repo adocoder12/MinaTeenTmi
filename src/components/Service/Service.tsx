@@ -1,4 +1,4 @@
-import style from "./Service.module.css";
+import style from "./service.module.css";
 
 interface Props {
   title: string;
