@@ -41,6 +41,7 @@ export default function ServiceList() {
           title={service.title}
           description={service.description}
           img={service.img}
+          key={service.id}
         />
       ))}
     </div>
