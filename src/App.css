@@ -4,18 +4,18 @@
   --black: #050402;
   --decorator: #efdecd;
 }
+
 .app {
   display: grid;
-  width: 100%;
   min-height: 100vh;
   gap: 12px;
   padding: 0 12px;
   place-items: center;
-  grid-template-columns: 2fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
-    " header header "
-    " main main "
-    " footer footer";
+    " header header header  header"
+    "main main main main"
+    " footer footer footer footer";
 }
 
 .container {
