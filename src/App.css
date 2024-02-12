@@ -9,9 +9,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "header header  "
-    "main main"
-    "footer footer  ";
+    "header header header header "
+    "main main main  main"
+    "footer footer footer footer ";
   min-height: 100vh;
   gap: 12px;
   padding: 0 12px;
