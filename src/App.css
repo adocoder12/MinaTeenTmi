@@ -19,14 +19,18 @@
 
 .container {
   display: grid;
-  grid-template-rows: minmax(500px, 1fr);
+  grid-template-rows: repeat(
+    auto-fill,
+    minmax(0.8fr, 1fr)
+  ); /* Corrected syntax */
   grid-area: main;
   align-items: flex-start;
   padding: 64px 7px 0;
   gap: 8px;
   margin-top: 64px;
-  width: 100%;
+  /* width: 100%; */
 }
+
 /* Small Tablet styles */
 /* @media screen and (min-width: 500px) {
   .app {
@@ -38,7 +42,7 @@
   }
 } */
 /* Large Tablet styles */
-@media (min-width: 690px) {
+/* @media (min-width: 690px) {
   .app {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
@@ -46,7 +50,7 @@
       "... main main main main main main ..."
       "footer footer footer footer footer footer footer footer";
   }
-}
+} */
 /* laptop styles */
 @media (min-width: 960px) {
   .app {

@@ -5,7 +5,8 @@ import AboutInfo from "@/components/aboutComponent/AboutInfo";
 
 export default function AboutPage() {
   return (
-    <div className={style["about___page__container"]}>
+    <>
+      {/* <div className={style["about___page__container"]}> */}
       <h1 className={style["about___page__title"]}>About</h1>
       <AboutInfo />
       <Banner
@@ -14,6 +15,8 @@ export default function AboutPage() {
             voit olla rennosti kotonasi."
         btnLink="ota-yhteytta"
       />
-    </div>
+
+      {/* </div> */}
+    </>
   );
 }
