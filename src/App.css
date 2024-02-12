@@ -30,7 +30,7 @@
 }
 
 /* Small Tablet styles */
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
   .app {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
@@ -41,7 +41,7 @@
   .container {
     grid-area: main;
   }
-}
+} */
 /* Large Tablet styles */
 @media (min-width: 690px) {
   .app {
