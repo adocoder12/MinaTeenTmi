@@ -1,5 +1,6 @@
 .footer {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-content: space-between;
   grid-template-columns: 1fr;
   grid-area: footer;
@@ -16,7 +17,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.leftFooter {
+  flex-basis: 50%;
+}
 .rigthFooter {
   display: flex;
   justify-content: space-around;
@@ -55,7 +58,7 @@
 }
 
 .bottonFooter {
-  justify-self: center;
+  text-align: center;
   position: relative;
 }
 
