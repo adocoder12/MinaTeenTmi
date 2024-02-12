@@ -50,8 +50,8 @@
   font-weight: 300;
   text-transform: capitalize;
   color: #000;
-  font-size: 18px;
-  padding: 8px;
+  font-size: 15px;
+  padding: 6px;
 }
 
 .navLinks li > a::after {
@@ -75,4 +75,11 @@
   color: var(--red);
   background-color: var(--blue);
   font-weight: 900;
+}
+
+@media (min-width: 960px) {
+  .navLinks li a {
+    font-size: 18px;
+    padding: 8px;
+  }
 }
