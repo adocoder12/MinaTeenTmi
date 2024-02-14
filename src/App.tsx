@@ -17,7 +17,7 @@ function App() {
       <div className="app">
         <Router>
           <Header />
-          <div className="container">
+          <div className="app__container">
             <Suspense fallback={<div>Loading...</div>}>
               <ScrollToTop />
               <Routes>
