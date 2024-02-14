@@ -1,9 +1,9 @@
-.about___page__container {
+/* .about___page__container {
   display: grid;
   grid-template-rows: 1fr;
   grid-gap: 20px;
   width: 100%;
-}
+} */
 
 .about___page__title {
   font-size: 2.5rem;
