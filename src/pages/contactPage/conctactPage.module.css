@@ -3,3 +3,11 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+
+@media (min-width: 880px) {
+  .contact__page__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+}
