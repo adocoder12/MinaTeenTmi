@@ -1,8 +1,9 @@
 .form {
   display: block;
   padding: 1.5rem;
-  max-width: inherit;
   height: 600px;
+  width: 100%;
+  max-width: 600px;
 }
 
 .form-content {

@@ -3,7 +3,7 @@
   grid-template-rows: 0.5fr;
   place-items: center;
   padding: 1.2rem;
-  grid-auto-flow: column-reverse;
+  /* grid-auto-flow: column-reverse; */
 }
 
 .service___container .service__img {
