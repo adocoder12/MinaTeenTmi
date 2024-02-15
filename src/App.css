@@ -15,7 +15,6 @@
     "footer footer footer footer";
   min-height: 100vh;
   gap: 12px;
-  padding: 0 12px;
 }
 
 .app__container {
@@ -28,7 +27,7 @@
   width: 100%;
 }
 
-@media (min-width: 690px) {
+@media screen and (min-width: 690px) {
   .app {
     grid-template-columns: repeat(8, 1fr);
     grid-template-areas:
@@ -38,7 +37,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media screen and (min-width: 960px) {
   .app {
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:

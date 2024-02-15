@@ -5,7 +5,7 @@ import profile from "../../assets/Profile_Picture.jpeg";
 export default function AboutInfo() {
   return (
     <>
-      <div className={style["about___page__wrapper"]}>
+      <div className={style["about___info__wrapper"]}>
         <div className={style["about__img__wrapper"]}>
           <img
             className={style["about__img__profile"]}

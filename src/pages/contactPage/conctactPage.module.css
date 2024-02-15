@@ -3,22 +3,3 @@
   flex-direction: column;
   gap: 1.5rem;
 }
-/* Page wrapper */
-
-.contact__page__wrapper {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  background-color: #fff;
-  grid-area: contactForm;
-}
-
-@media (min-width: 880px) {
-  .contact__page__wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-  }
-}
