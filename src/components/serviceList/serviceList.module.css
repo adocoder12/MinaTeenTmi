@@ -1,8 +1,9 @@
 .serviceList__container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 10px 0;
   padding: 1.2rem;
+  width: 100%;
 }
 .serviceList__title {
   font-size: 2rem;

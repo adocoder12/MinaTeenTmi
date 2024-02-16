@@ -2,10 +2,12 @@
 import Hero from "@components/Hero/Hero";
 import ServiceList from "@/components/serviceList/ServiceList";
 import Banner from "@/components/banner/Banner";
+//css
+import style from "./homepage.module.css";
 
 export default function HomePage() {
   return (
-    <>
+    <div className={style["homepage__container"]}>
       <Hero />
       <ServiceList />
       <Banner
@@ -14,6 +16,6 @@ export default function HomePage() {
             voit olla rennosti kotonasi."
         btnLink="ota-yhteytta"
       />
-    </>
+    </div>
   );
 }

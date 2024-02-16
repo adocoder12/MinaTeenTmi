@@ -1,9 +1,8 @@
 .service___container {
   display: grid;
-  grid-template-rows: 0.5fr;
+  grid-template-rows: repeat(auto-fit, minmax(190px, 1fr));
   place-items: center;
   padding: 1.2rem;
-  /* grid-auto-flow: column-reverse; */
 }
 
 .service___container .service__img {
@@ -11,7 +10,7 @@
 }
 
 .service__img {
-  width: 470px;
+  width: 100%;
   border-radius: 8px;
 }
 

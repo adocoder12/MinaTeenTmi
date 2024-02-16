@@ -34,16 +34,18 @@ export default function ServiceList() {
     },
   ];
   return (
-    <div className={style["serviceList__container"]}>
-      <h1 className={style["serviceList__title"]}>Palvelut</h1>
-      {service.map((service) => (
-        <Service
-          title={service.title}
-          description={service.description}
-          img={service.img}
-          key={service.id}
-        />
-      ))}
-    </div>
+    <>
+      <section className={style["serviceList__container"]}>
+        <h1 className={style["serviceList__title"]}>Palvelut</h1>
+        {service.map((service) => (
+          <Service
+            title={service.title}
+            description={service.description}
+            img={service.img}
+            key={service.id}
+          />
+        ))}
+      </section>
+    </>
   );
 }

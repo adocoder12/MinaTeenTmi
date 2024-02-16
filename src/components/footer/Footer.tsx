@@ -44,7 +44,7 @@ export default function Footer() {
         <span className={footer.divider}></span>
         <div className={footer.bottonFooter}>
           <br />
-          <h3>©2023 Adonay D'agosto - Tietosuojaseloste</h3>
+          <h3>©2023 Adonay D'agosto</h3>
         </div>
       </footer>
     </>
