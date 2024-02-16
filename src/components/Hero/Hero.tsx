@@ -13,7 +13,7 @@ export default function Hero() {
         <span className={hero.text}>
           PIHATYÖT, SIIVOUS JA KOTIAPU VUODEN JOKAISENA PÄIVÄNÄ
         </span>
-        <Button text="Tutustu meidan" btnLink="about" />
+        <Button text="Tutustu meidan" btnLink="minusta" />
       </section>
     </>
   );
