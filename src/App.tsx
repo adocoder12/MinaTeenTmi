@@ -4,6 +4,7 @@ import { lazy, Suspense } from "react";
 //components
 import Header from "@components/header/Header";
 import Footer from "@components/footer/Footer";
+import Loader from "./components/loader/Loader";
 //pages
 const HomePage = lazy(() => import("./pages/homepage/HomePage"));
 const ContactPage = lazy(() => import("./pages/contactPage/ContactPage"));
@@ -18,7 +19,7 @@ function App() {
         <Router>
           <Header />
           <div className="app__container">
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<Loader />}>
               <ScrollToTop />
               <Routes>
                 <Route path="/" index element={<HomePage />} />
