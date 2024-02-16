@@ -4,6 +4,12 @@
   gap: 1.5rem;
 }
 
+.contact__page__wrapper {
+  padding: 50px 40px 20px 40px;
+  background-color: #ffffff;
+
+  border-radius: 11px;
+}
 @media (min-width: 880px) {
   .contact__page__wrapper {
     display: flex;
