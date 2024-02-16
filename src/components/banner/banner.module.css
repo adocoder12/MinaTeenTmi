@@ -24,7 +24,10 @@
 .banner__title {
   font-size: 2rem;
   margin-bottom: 10px;
-  text-transform: capitalize;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-/* .banner__text {
-} */
+.banner__text {
+  font-size: 1.6;
+  font-weight: 400;
+}

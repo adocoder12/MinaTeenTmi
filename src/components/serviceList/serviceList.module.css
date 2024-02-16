@@ -12,3 +12,12 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+.serviceList__title:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: var(--blue);
+  margin: 1px auto;
+}
