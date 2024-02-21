@@ -9,6 +9,7 @@ import Loader from "./components/loader/Loader";
 const HomePage = lazy(() => import("./pages/homepage/HomePage"));
 const ContactPage = lazy(() => import("./pages/contactPage/ContactPage"));
 const AboutPage = lazy(() => import("./pages/aboutPage/AboutPage"));
+const ServicePage = lazy(() => import("./pages/servicesPage/ServicePage"));
 //hooks
 import ScrollToTop from "./utils/Hooks/ScrollToTop";
 
@@ -24,7 +25,8 @@ function App() {
               <Routes>
                 <Route path="/" index element={<HomePage />} />
                 <Route path="/ota-yhteytta" element={<ContactPage />} />
-                <Route path="/service/:name" element={<h1>service </h1>} />
+                <Route path="/palvelut" element={<ServicePage />} />
+                <Route path="/palvelut/:name" element={<h1>service </h1>} />
                 <Route path="/minusta" element={<AboutPage />} />
               </Routes>
             </Suspense>

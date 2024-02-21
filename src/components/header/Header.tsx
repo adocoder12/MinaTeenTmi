@@ -25,6 +25,7 @@ export default function Header() {
   const navLinks = [
     { name: "Etusivu", path: "/" },
     { name: "Ota Yhteyttä", path: "/ota-yhteytta" },
+    { name: "Palvelut", path: "/palvelut" },
     { name: "Minusta", path: "/minusta" },
   ];
   const handleShowLinks = () => {

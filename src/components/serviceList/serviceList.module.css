@@ -5,19 +5,3 @@
   padding: 1.2rem;
   width: 100%;
 }
-.serviceList__title {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 1rem 0;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.serviceList__title:after {
-  content: "";
-  display: block;
-  width: 120px;
-  height: 3px;
-  background-color: var(--blue);
-  margin: 1px auto;
-}

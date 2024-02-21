@@ -9,6 +9,7 @@ export default function HomePage() {
   return (
     <div className={style["homepage__container"]}>
       <Hero />
+      <h1 className={style["serviceList__title"]}>Palvelut</h1>
       <ServiceList />
       <Banner
         title="Pyydä tarjous"
