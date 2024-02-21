@@ -4,13 +4,14 @@ interface Props {
   title: string;
   text?: string;
   bgColour?: string;
+  color?: string;
 }
 
-export default function TopBanner({ title, text, bgColour }: Props) {
+export default function TopBanner({ title, text, bgColour, color }: Props) {
   return (
     <>
       <div
-        style={{ backgroundColor: bgColour }}
+        style={{ backgroundColor: bgColour, color: color }}
         className={style.bannerContainer}
       >
         <h1 className={style.bannerTitle}>{title}</h1>

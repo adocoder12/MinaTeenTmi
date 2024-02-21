@@ -7,6 +7,7 @@
   height: 250px;
   padding: 1rem;
   border-radius: 2px;
+  color: #333;
   height: 50vh;
   gap: 0 10px;
 }
@@ -14,7 +15,6 @@
 .bannerTitle {
   font-size: 2rem;
   font-weight: 700;
-  color: #333;
   margin-bottom: 1rem;
   text-transform: capitalize;
   text-align: center;
@@ -22,7 +22,6 @@
 .bannerText {
   font-size: 1.25rem;
   font-weight: 400;
-  color: #333;
   text-align: center;
   max-width: 780px;
 }
