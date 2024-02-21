@@ -19,8 +19,8 @@ export default function ContactInfo() {
   ];
   return (
     <div className={style["contactInfo__container"]}>
-      {cotactInfo.map((info) => (
-        <div className={style["contactInfo__wrapper"]}>
+      {cotactInfo.map((info, index) => (
+        <div className={style["contactInfo__wrapper"]} key={index}>
           <div className={style["contactIcon__wrapper"]}>
             <info.icon />
             <h2 className={style.IconTitle}>{info.title}</h2>

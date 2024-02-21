@@ -1,11 +1,19 @@
 .form {
   display: block;
   padding: 1.5rem;
-  height: 600px;
+  height: 80%;
   width: 100%;
   max-width: 600px;
 }
-
+.error-modal {
+  background-color: #db3434;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
 .form-content {
   margin: 32px 0;
 }
