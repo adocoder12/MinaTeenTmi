@@ -24,6 +24,7 @@ function App() {
               <Routes>
                 <Route path="/" index element={<HomePage />} />
                 <Route path="/ota-yhteytta" element={<ContactPage />} />
+                <Route path="/service/:name" element={<h1>service </h1>} />
                 <Route path="/minusta" element={<AboutPage />} />
               </Routes>
             </Suspense>

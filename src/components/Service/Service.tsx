@@ -1,9 +1,12 @@
 import style from "./service.module.css";
+//component
+import Button from "../Button/Button";
 
 interface Props {
   title: string;
   description: string;
   img: string;
+  id?: number;
 }
 
 export default function Service({ title, description, img }: Props) {
@@ -20,6 +23,7 @@ export default function Service({ title, description, img }: Props) {
         <div className={style["service__content"]}>
           <h2 className={style["content__title"]}>{title}</h2>
           <span className={style["content__Text"]}>{description}</span>
+          <Button text="Lue lisää" btnLink={`service/${title}`} />
         </div>
       </div>
     </>
