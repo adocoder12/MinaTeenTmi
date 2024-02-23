@@ -5,6 +5,7 @@ import { lazy, Suspense } from "react";
 import Header from "@components/header/Header";
 import Footer from "@components/footer/Footer";
 import Loader from "./components/loader/Loader";
+import ServiceModal from "./components/ServiceModal/ServiceModal";
 //pages
 const HomePage = lazy(() => import("./pages/homepage/HomePage"));
 const ContactPage = lazy(() => import("./pages/contactPage/ContactPage"));
@@ -26,7 +27,7 @@ function App() {
                 <Route path="/" index element={<HomePage />} />
                 <Route path="/ota-yhteytta" element={<ContactPage />} />
                 <Route path="/palvelut" element={<ServicePage />} />
-                <Route path="/palvelut/:name" element={<h1>service </h1>} />
+                <Route path="/palvelut/:id" element={<ServiceModal />} />
                 <Route path="/minusta" element={<AboutPage />} />
               </Routes>
             </Suspense>

@@ -10,6 +10,9 @@
   color: #333;
   height: 50vh;
   gap: 0 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bannerTitle {

@@ -1,0 +1,44 @@
+.service__modal___container {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  gap: 2rem;
+  /* grid-template-rows: minmax(600px, auto); */
+}
+.service__content___container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.service__content___container > * {
+  margin-left: 1rem;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.description,
+.content,
+.price {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .service__modal___container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(600px, auto);
+    gap: 0;
+  }
+  .service__content___container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+}
