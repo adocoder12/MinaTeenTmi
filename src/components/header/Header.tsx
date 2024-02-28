@@ -20,13 +20,13 @@ export default function Header() {
       console.log("cleaned up");
       setUrl("");
     };
-  }, [location.pathname]);
+  }, [location]);
 
   const navLinks = [
     { name: "Etusivu", path: "/" },
-    { name: "Ota Yhteyttä", path: "/ota-yhteytta" },
-    { name: "Palvelut", path: "/palvelut" },
     { name: "Minusta", path: "/minusta" },
+    { name: "Palvelut", path: "/palvelut" },
+    { name: "Ota Yhteyttä", path: "/ota-yhteytta" },
   ];
   const handleShowLinks = () => {
     if (!showLinks) {
@@ -36,6 +36,11 @@ export default function Header() {
     }
     setShowLinks(!showLinks);
   };
+
+  console.log("url " + url);
+  console.log("path " + navLinks[1].path);
+
+  console.log("showLinks ", url === "/minusta");
 
   return (
     <>
@@ -63,7 +68,8 @@ export default function Header() {
                   {navLinks.map((link, index) => (
                     <li className={style.userList} key={index}>
                       <NavLink
-                        className={location.pathname === url ? "active " : ""}
+                        // className={link.path === url ? `${style.active}` : ""}
+                        className={({ isActive }) => (isActive ? "active" : "")}
                         to={link.path}
                         onClick={handleShowLinks}
                       >

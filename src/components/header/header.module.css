@@ -76,10 +76,9 @@
 .navLinks li > *:hover:after {
   width: 80%;
 }
-.navLinks li .active {
-  color: var(--red);
-  background-color: var(--blue);
-  font-weight: 900;
+
+.navLinks li a.active {
+  color: aquamarine; /* Adjust size as needed */
 }
 
 /* burger menu */
@@ -150,9 +149,6 @@
     padding: 8px;
   }
 
-  .navLinks li a.active {
-    font-size: 500px; /* Adjust size as needed */
-  }
   .menuClass__on__navBar {
     display: block;
   }

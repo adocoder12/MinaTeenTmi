@@ -26,6 +26,9 @@
   margin-top: 64px;
   width: 100%;
 }
+/* nav ul li > a.active {
+  color: aquamarine;
+} */
 
 @media screen and (min-width: 690px) {
   .app {

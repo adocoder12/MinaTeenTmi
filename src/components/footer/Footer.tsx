@@ -24,6 +24,9 @@ export default function Footer() {
                 <li>
                   <Link to="/minusta">Minustä</Link>
                 </li>
+                <li>
+                  <Link to="/palvelut">Palvelut</Link>
+                </li>
               </ul>
             </div>
             <div className={footer["pages__footer"]}>
