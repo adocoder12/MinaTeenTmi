@@ -3,6 +3,7 @@
   grid-template-rows: repeat(auto-fit, minmax(190px, 1fr));
   place-items: center;
   padding: 1.2rem;
+  gap: 1rem;
 }
 
 .service___container .service__img {
@@ -30,8 +31,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding-bottom: 1rem;
-  gap: 10px;
+  /* padding-bottom: 1rem; */
+  gap: 20px;
 }
 
 .content__title {
