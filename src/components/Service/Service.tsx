@@ -1,5 +1,5 @@
 import style from "./service.module.css";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 //component
 import Button from "../Button/Button";
 
