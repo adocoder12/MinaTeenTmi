@@ -3,7 +3,7 @@
   grid-template-rows: repeat(auto-fit, minmax(190px, 1fr));
   place-items: center;
   padding: 1.2rem;
-  gap: 1rem;
+  gap: 20px;
 }
 
 .service___container .service__img {
@@ -23,7 +23,7 @@
   height: 40vh;
   overflow: hidden;
   aspect-ratio: 16/9;
-  margin-bottom: 0.6rem;
+  margin-bottom: 20px;
 }
 
 /* Content */
@@ -51,6 +51,7 @@
 @media (min-width: 980px) {
   .service___container {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
   .service___container:nth-child(odd) .service__content {
     order: 2;
