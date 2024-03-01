@@ -23,6 +23,7 @@
   height: 40vh;
   overflow: hidden;
   aspect-ratio: 16/9;
+  margin-bottom: 0.6rem;
 }
 
 /* Content */
@@ -57,5 +58,8 @@
 
   .service__content {
     padding: 1rem;
+  }
+  .service__img img.service__background__img {
+    margin-bottom: 0;
   }
 }

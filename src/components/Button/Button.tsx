@@ -12,6 +12,7 @@ export default function Button({ text, btnLink }: ButtonProps) {
     <button
       onClick={() => navigate(`/${btnLink}`)}
       className={`${style.Btn} }`}
+      id="btn-universal"
     >
       {text}
     </button>
