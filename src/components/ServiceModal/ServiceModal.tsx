@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 //componet
-import TopBanner from "../topBanner/TopBanner";
+// import TopBanner from "../topBanner/TopBanner";
 //css
 import style from "./serviceModal.module.css";
 
@@ -15,12 +15,16 @@ export default function ServiceModal() {
         .filter((service) => service.id === Number(id))
         .map((service) => (
           <div key={service.id} className={style["service__modal___container"]}>
-            <TopBanner
-              title={service.title}
-              color="#333"
-              img={service.img}
-              heigth="100%"
-            />
+            <div
+              style={{
+                backgroundImage: service.img && `url(${service.img})`,
+              }}
+              className={style["service__banner___container"]}
+            >
+              <h1 className={style["service__banner___title"]}>
+                {service.title}
+              </h1>
+            </div>
             <div
               key={service.id}
               className={style["service__content___container"]}
