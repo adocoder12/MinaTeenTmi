@@ -17,7 +17,7 @@ export default function ServiceModal() {
           <div key={service.id} className={style["service__modal___container"]}>
             <TopBanner
               title={service.title}
-              color="white"
+              color="#333"
               img={service.img}
               heigth="100%"
             />
