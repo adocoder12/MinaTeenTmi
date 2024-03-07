@@ -1,5 +1,7 @@
 import style from "./service.module.css";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 //component
 import Button from "../Button/Button";
 
@@ -12,6 +14,7 @@ interface Props {
 
 export default function Service({ title, description, img, id }: Props) {
   const [isMobile, setIsMobile] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -35,6 +38,7 @@ export default function Service({ title, description, img, id }: Props) {
             src={img}
             className={style["service__background__img"]}
             alt="Service background image"
+            onClick={() => navigate(`palvelut/${id}`)}
           />
           {isMobile && <Button text="Lue lisää" btnLink={`palvelut/${id}`} />}
         </div>

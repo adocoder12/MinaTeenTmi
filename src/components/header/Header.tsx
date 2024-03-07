@@ -25,8 +25,8 @@ export default function Header() {
   const navLinks = [
     { name: "Etusivu", path: "/" },
     { name: "Palvelut", path: "/palvelut" },
-    { name: "Minusta", path: "/minusta" },
     { name: "Ota Yhteyttä", path: "/ota-yhteytta" },
+    { name: "Minusta", path: "/minusta" },
   ];
   const handleShowLinks = () => {
     if (!showLinks) {
@@ -47,7 +47,7 @@ export default function Header() {
       <header className={`${style.header}`}>
         <nav className={style.navBar}>
           <div className={style.logo}>
-            <Link to={"/"}>MinäTeen</Link>
+            <Link to={"/"}>MinäTeenTmi</Link>
           </div>
           <>
             <FaBars
