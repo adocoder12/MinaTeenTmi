@@ -8,12 +8,12 @@ export default function Hero() {
     <>
       <section className={hero.hero}>
         <h1 className={hero.title}>
-          Monipuoliset Remontipalvelut Kotitalouksille Siilinjärveltä
+          Monipuoliset Remonttipalvelut Kotitalouksille Siilinjärveltä
         </h1>
         <span className={hero.text}>
           PIHATYÖT, SIIVOUS JA KOTIAPU VUODEN JOKAISENA PÄIVÄNÄ
         </span>
-        <Button text="Tutustu meidan" btnLink="minusta" />
+        <Button text="Tutustu meihin" btnLink="minusta" />
       </section>
     </>
   );
