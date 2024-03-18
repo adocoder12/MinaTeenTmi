@@ -9,7 +9,7 @@ export default function ContactInfo() {
     {
       icon: FaMapMarkerAlt,
       title: "Y-tunnus",
-      text: "1231235234",
+      text: "3272504-Y",
     },
     {
       icon: FaRegUser,
@@ -33,8 +33,8 @@ export default function ContactInfo() {
           <FaPhoneAlt />
           <h2 className={style.IconTitle}>Puhelinnumero</h2>
         </div>
-        <a href="tel:+358555232352" className={style.IconInfo}>
-          +358555232352
+        <a href="tel:+358449724870" className={style.IconInfo}>
+          +358449724870
         </a>
       </div>
       <div className={style["contactInfo__wrapper"]}>
@@ -43,7 +43,7 @@ export default function ContactInfo() {
           <h2 className={style.IconTitle}>Sähköpostiosoite</h2>
         </div>
         <a href="mailto:minateentmi@gmail.com" className={style.IconInfo}>
-          EduardoCipriani@mail.com
+          minateentmi@gmail.com
         </a>
       </div>
     </div>
